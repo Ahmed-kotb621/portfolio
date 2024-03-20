@@ -1,9 +1,8 @@
 import Logo from "./Logo";
-
 function Header() {
   return (
     <div className="flex justify-center">
-      <nav className="p-4 lg:p-5 lg:px-8 text-[18px] rounded-full text-white bg-[#2E2E2E] flex justify-between px-8 items-center fixed md:min-w-[700px] lg:min-w-[1000px] top-6">
+      <nav className="p-4 lg:p-5 lg:px-8 text-[18px] no-scrollbar rounded-full overflow-x-scroll text-white bg-[#292727] flex justify-between px-8 items-center fixed w-[90%] md:w-[700px] lg:min-w-[1000px] top-6">
         <ul>
           <li>
             <a href="#">

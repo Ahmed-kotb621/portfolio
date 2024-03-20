@@ -7,3 +7,19 @@
   /* border-bottom: 2px solid;
   border-image: linear-gradient(45deg, #a8bdea, #4b97f3) 1; */
 }
+
+.mainBackground {
+  background: rgb(16, 23, 33);
+  background: rgb(16, 23, 33);
+  background: radial-gradient(
+    at top,
+    rgba(16, 23, 33, 1) 12%,
+    rgba(1, 3, 5, 1) 70%,
+    rgba(1, 1, 1, 1) 100%
+  );
+}
+
+.image {
+  border: 2px solid;
+  border-image: linear-gradient(45deg, #a8bdea, #4b97f3) 1;
+}

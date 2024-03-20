@@ -1,11 +1,13 @@
-import GoHome from "../components/GoHome";
+import GoHome from "../features/Landing/GoHome";
 import Header from "../components/Header";
-
+import styles from "../components/navItem.module.css";
+import Home from "../features/Landing/Home";
 function Landing() {
   return (
-    <section className="bg-black h-[100dvh]" id="home">
+    <section className={`h-[100dvh] p-4 ${styles.mainBackground}`} id="home">
       <Header />
       <GoHome />
+      <Home />
     </section>
   );
 }
