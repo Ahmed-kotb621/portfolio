@@ -1,0 +1,9 @@
+.hover {
+  background: linear-gradient(45deg, #4b97f3, #a8bdea);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+  font-weight: 700;
+  /* border-bottom: 2px solid;
+  border-image: linear-gradient(45deg, #a8bdea, #4b97f3) 1; */
+}
