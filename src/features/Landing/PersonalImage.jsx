@@ -3,7 +3,7 @@ import styles from "../../components/navItem.module.css";
 function PersonalImage() {
   return (
     <div className="w-[100%]">
-      <img src={image} className="rounded-full drop-shadow  filter grayscale" />
+      <img src={image} className="rounded-full drop-shadow shadow-black " />
     </div>
   );
 }
