@@ -1,0 +1,47 @@
+.link {
+  background-color: black;
+  font-size: 20px;
+  font-weight: 500;
+  min-width: 170px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  margin: 10px;
+  border: 1px solid #fff;
+  padding: 10px 20px;
+  border-radius: 50px;
+  position: relative;
+  transition: outline 0.3s;
+  text-wrap: nowrap;
+}
+
+.link:hover {
+  background-color: #fff;
+  color: black;
+  outline: 5px solid #fff;
+}
+
+.link svg {
+  transition: transform 0.5s;
+  transition-delay: 0.1s;
+}
+
+.link:hover svg {
+  transform: translateX(8px);
+}
+
+.cvGradient {
+  background-color: var(--blue);
+  font-size: 20px;
+  font-weight: 500;
+  min-width: 170px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  margin: 10px;
+  border: 1px solid var(--blue);
+  padding: 10px 20px;
+  border-radius: 50px;
+}

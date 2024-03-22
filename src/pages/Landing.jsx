@@ -6,7 +6,10 @@ import Resume from "../features/Landing/Resume";
 
 function Landing() {
   return (
-    <section className={`h-[100dvh] p-4 ${styles.mainBackground}`} id="home">
+    <section
+      className={`min-h-[100dvh] p-4 ${styles.mainBackground}`}
+      id="home"
+    >
       <Header />
       <GoHome />
       <Home />

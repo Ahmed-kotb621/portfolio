@@ -3,7 +3,7 @@ import { IoIosMail } from "react-icons/io";
 function Social() {
   return (
     <div className=" w-[100%] h-1[100%] ">
-      <ul className="text-4xl flex flex-col justify-around items-center h-[100%]">
+      <ul className="text-4xl mt-5 md:mt-0 flex md:flex-col justify-around items-center h-[100%]">
         <li className="text-[#403d3d] hover:text-slate-300 duration-300">
           <a
             href="https://www.linkedin.com/in/ahmed-kotb-17b0a4253"

@@ -1,9 +1,5 @@
 .gradientText {
-  background: radial-gradient(
-    circle,
-    rgba(8, 111, 255, 1) 0%,
-    rgba(255, 221, 183, 1) 41%
-  );
+  background: radial-gradient(circle, #086fff 0%, #ffddb7 41%);
   font-size: 8rem;
   font-weight: bold;
   color: transparent;
@@ -23,5 +19,29 @@
 
   100% {
     background-position: 0% 50%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .gradientText {
+    font-size: 80px;
+    line-height: 80px;
+    margin: 20px 0;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .gradientText {
+    font-size: 100px;
+    line-height: 80px;
+    margin: 20px 0;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .gradientText {
+    font-size: 120px;
+    line-height: 120px;
+    margin: 20px 0;
   }
 }
