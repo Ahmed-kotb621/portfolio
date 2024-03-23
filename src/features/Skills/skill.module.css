@@ -1,0 +1,30 @@
+.skills {
+  padding: 20px;
+  width: 70%;
+  margin: 50px auto;
+  position: relative;
+  height: 60%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+@media screen and (min-width: 1024px) {
+  .skills {
+    max-width: 50%;
+  }
+}
+
+.icon {
+  font-size: 50px;
+  display: inline-block;
+  margin: 20px;
+  color: #403d3d;
+  transition: color 0.2s, scale 0.2s;
+}
+
+.icon:hover {
+  color: white;
+  transform: scale(1.1);
+}
