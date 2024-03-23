@@ -1,6 +1,5 @@
 import image1 from "../../assets/projects/muslim/muslim1.PNG";
-import image2 from "../../assets/projects/muslim/muslim2.PNG";
-import image3 from "../../assets/projects/muslim/muslim3.PNG";
+
 function Project() {
   return (
     <div className="w-[70%] md:w-[50%] lg:w-[30%] mx-auto mt-[100px]  bg-gradient-to-b from-[#086fff] to-[#ffddb7] p-2 rounded-[20px]">
