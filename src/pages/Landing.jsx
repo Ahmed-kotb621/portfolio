@@ -7,7 +7,7 @@ import Resume from "../features/Landing/Resume";
 function Landing() {
   return (
     <section
-      className={`min-h-[100dvh] p-4 ${styles.mainBackground}`}
+      className={`min-h-[100dvh] p-4 ${styles.mainBackground} flex flex-col justify-around`}
       id="home"
     >
       <Header />

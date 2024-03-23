@@ -1,5 +1,6 @@
 import { FaFacebook, FaGithub, FaLinkedin } from "react-icons/fa";
 import { IoIosMail } from "react-icons/io";
+
 function Social() {
   return (
     <div className=" w-[100%] h-1[100%] ">

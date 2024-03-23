@@ -33,7 +33,7 @@
 @media screen and (max-width: 1024px) {
   .gradientText {
     font-size: 100px;
-    line-height: 80px;
+    line-height: 120px;
     margin: 20px 0;
   }
 }
@@ -41,7 +41,7 @@
 @media screen and (min-width: 1024px) {
   .gradientText {
     font-size: 120px;
-    line-height: 120px;
+    line-height: 130px;
     margin: 20px 0;
   }
 }
