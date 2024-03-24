@@ -1,3 +1,4 @@
+import Footer from "./features/Footer/Footer";
 import Contacts from "./pages/Contacts";
 import Landing from "./pages/Landing";
 import Resume from "./pages/Resume";
@@ -12,6 +13,7 @@ export default function App() {
       <Work />
       <Resume />
       <Contacts />
+      <Footer />
     </div>
   );
 }
