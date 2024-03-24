@@ -1,0 +1,47 @@
+.gradientText {
+  background: radial-gradient(circle, #086fff 0%, #ffddb7 41%);
+
+  font-weight: 500;
+  color: transparent;
+  background-clip: text;
+  -webkit-background-clip: text;
+  background-size: 200% 200%;
+  animation: gradBack 10s ease infinite;
+}
+
+@keyframes gradBack {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+/* @media screen and (max-width: 768px) {
+  .gradientText {
+    font-size: 80px;
+    line-height: 80px;
+    margin: 20px 0;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .gradientText {
+    font-size: 100px;
+    line-height: 120px;
+    margin: 20px 0;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .gradientText {
+    font-size: 120px;
+    line-height: 130px;
+    margin: 20px 0;
+  }
+} */

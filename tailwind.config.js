@@ -5,6 +5,7 @@ export default {
     fontFamily: {
       sans: ["Google Sans Display", "sans-serif"],
     },
+
     extend: {},
   },
   plugins: [],

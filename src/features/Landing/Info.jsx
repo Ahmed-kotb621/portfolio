@@ -17,7 +17,6 @@ function Info() {
       </h2>
       <h1 className={`${styles.gradientText}`}>Ahmed Kotb</h1>
       <h1 className="text-4xl md:text-5xl lg:text-7xl mt-3 md:mt-0">
-        {" "}
         Front-End Developer
       </h1>
     </motion.div>

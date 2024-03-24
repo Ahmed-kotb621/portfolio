@@ -12,7 +12,7 @@ function Skills() {
       animate={isVisible ? { opacity: 1, y: 0 } : { opacity: 0, y: 100 }}
       transition={{ ease: "easeOut", duration: 0.5 }}
       id="skills"
-      className="h-[100dvh] flex flex-col items-center mt-6"
+      className=" md:min-h-[70vh] my-auto justify-center flex flex-col items-center mt-6"
     >
       <Heading title="Professional Skills" />
       <Skill />
