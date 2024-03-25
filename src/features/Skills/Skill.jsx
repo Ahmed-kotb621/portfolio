@@ -1,4 +1,4 @@
-import { FaCss3, FaHtml5, FaJs, FaReact } from "react-icons/fa6";
+import { FaCss3, FaHtml5, FaJs, FaReact, FaNpm } from "react-icons/fa6";
 import { BiLogoTailwindCss } from "react-icons/bi";
 import styles from "./skill.module.css";
 import {
@@ -9,6 +9,7 @@ import {
   SiRedux,
   SiStyledcomponents,
   SiVite,
+  SiReactquery,
   SiWebpack,
 } from "react-icons/si";
 function Skill() {
@@ -53,6 +54,12 @@ function Skill() {
       </div>
       <div className={`${styles.icon}`}>
         <SiGit />
+      </div>
+      <div className={`${styles.icon}`}>
+        <FaNpm />
+      </div>
+      <div className={`${styles.icon}`}>
+        <SiReactquery />
       </div>
     </div>
   );

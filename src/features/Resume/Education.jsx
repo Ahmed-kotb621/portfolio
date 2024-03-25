@@ -1,9 +1,17 @@
+import { motion } from "framer-motion";
+import { useAnimation } from "../../Hooks/useAnimation";
 import TextGredient from "../../ui/TextGredient";
-
 function Education() {
+  const { ref, isVisible } = useAnimation();
   return (
-    <div className="flex-1 border-r-2 border-[#ffddb7] border-to-black">
-      <TextGredient text="Education" size="50" />
+    <motion.div
+      ref={ref}
+      initial={{ opacity: 0, y: 100 }}
+      animate={isVisible ? { opacity: 1, y: 0 } : { opacity: 0, y: 100 }}
+      transition={{ duration: 0.5, ease: "easeOut" }}
+      className="flex-1 md:border-r-2 border-[#ffddb7] border-to-black"
+    >
+      <TextGredient text="Education" size="30px" />
 
       <div className="text-start my-6 pb-3 leading-8 border-b-2 border-[#ffddb7]">
         <h2 className="text-lg">
@@ -21,7 +29,7 @@ function Education() {
         <h2 className="text-lg">Front End Masters</h2>
         <p className="text-gray-500">Complete Intro to React, v8</p>
       </div>
-    </div>
+    </motion.div>
   );
 }
 

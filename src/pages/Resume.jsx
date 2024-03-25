@@ -6,10 +6,10 @@ function Resume() {
   return (
     <section
       id="resume"
-      className=" min-h-[100vh]  flex flex-col items-center p-8 lg:w-[60%] mx-auto"
+      className=" min-h-[70vh]  flex flex-col items-center p-8 lg:w-[60%] mx-auto"
     >
       <Heading title="Resume" />
-      <div className="text-white flex w-full text-center gap-2 mt-16">
+      <div className="text-white flex flex-col w-full text-center gap-2 mt-20 md:flex-row">
         <Education />
         <Experience />
       </div>

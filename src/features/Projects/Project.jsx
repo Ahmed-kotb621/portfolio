@@ -14,7 +14,7 @@ function Project({ image, description, technologies, href }) {
       transition={{ ease: "easeOut", duration: 0.5 }}
       className="w-[90%] md:w-[50%] lg:w-[30%] mx-auto mt-[100px]  bg-gradient-to-b from-[#086fff] via-[#ffddb7] to-black p-1 rounded-[20px]"
     >
-      <div className="bg-black rounded-2xl p-1 ">
+      <div className="bg-black rounded-[18px] p-1 ">
         <div className="flex gap-1 h-[300px] overflow-hidden rounded-2xl">
           <img src={image} className=" h-[100%] w-[100%]" />
         </div>
@@ -25,7 +25,7 @@ function Project({ image, description, technologies, href }) {
               {description}
             </h2>
             <h2 className="my-2">
-              <TextGredient text="Technologies :" size="30px" />
+              <TextGredient text="Technologies :" size="22px" />
               {technologies}
             </h2>
           </div>

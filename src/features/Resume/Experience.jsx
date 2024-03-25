@@ -1,16 +1,24 @@
+import { motion } from "framer-motion";
+import { useAnimation } from "../../Hooks/useAnimation";
 import TextGredient from "../../ui/TextGredient";
-
 function Experience() {
+  const { ref, isVisible } = useAnimation();
   return (
-    <div className="flex-1 ">
-      <TextGredient text="Experience" size="50" />
+    <motion.div
+      ref={ref}
+      initial={{ opacity: 0, y: 100 }}
+      animate={isVisible ? { opacity: 1, y: 0 } : { opacity: 0, y: 100 }}
+      transition={{ duration: 0.5, ease: "easeOut" }}
+      className="flex-1 mt-5 md:mt-0"
+    >
+      <TextGredient text="Experience" size="30px" />
 
       <div className="text-start leading-8">
         <div className="border-b-2 border-[#ffddb7] my-6 pb-3">
           <h2 className="text-lg">
             National Company for Roads (Military Service).
           </h2>
-          <p className=" text-gray-500">SoftWare Engineer</p>
+          <p className=" text-gray-500">Software Engineer</p>
         </div>
         <p className="text-lg mb-2">
           Adding features and maintaining an existing android application that
@@ -32,7 +40,7 @@ function Experience() {
           </span>
         </p>
       </div>
-    </div>
+    </motion.div>
   );
 }
 

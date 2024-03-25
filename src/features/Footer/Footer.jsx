@@ -1,5 +1,4 @@
 import Social from "../Landing/Social";
-import TextGredient from "../../ui/TextGredient";
 function Footer() {
   return (
     <div className="flex flex-col md:flex-row border-t-2 border-[#292727] p-5 items-center justify-center gap-3 md:gap-10">
@@ -11,7 +10,7 @@ function Footer() {
         <span className="text-3xl mt-3 mr-1">&copy;</span>
         {new Date().getFullYear()}
         &nbsp;
-        <TextGredient text="Ahmed Sayed Kotb" />
+        <p>Ahmed Sayed Kotb</p>
       </div>
     </div>
   );
