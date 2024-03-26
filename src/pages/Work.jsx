@@ -3,6 +3,7 @@ import wildOasis from "../assets/projects/wildOasis/wildOasis.PNG";
 import card from "../assets/projects/card/card.png";
 import sneakers from "../assets/projects/sneakers/sneakers.PNG";
 import wise from "../assets/projects/worldWise/wordWise.png";
+import pizza from "../assets/projects/fastPizza/pizza.PNG";
 import Project from "../features/Projects/Project";
 import Heading from "../ui/Heading";
 function Work() {
@@ -39,6 +40,12 @@ function Work() {
         description="web application which track your travel, using leaflet map ,and Authonication"
         technologies="React.js, Vite, React Router, Context Api, useCallback, useMemo, etc."
         href="https://github.com/Ahmed-kotb621/World-Wise"
+      />
+      <Project
+        image={pizza}
+        description="web application for ordering different pizza online and counting estimated time."
+        technologies="React.js , Vite, React Router Data Loading, Tailwind Css, Hooks."
+        href="https://github.com/Ahmed-kotb621/fast-pizza"
       />
     </section>
   );
