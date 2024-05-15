@@ -3,7 +3,7 @@ import { IoIosMail } from "react-icons/io";
 
 function Social({ footer }) {
   return (
-    <div className=" w-[100%] h-1[100%] ">
+    <div className=" w-[100%] h-[100%] ">
       <ul
         className={`text-4xl  md:mt-0 flex justify-around items-center h-[100%] ${
           footer ? "md:flex mt-0" : "md:flex-col mt-5"

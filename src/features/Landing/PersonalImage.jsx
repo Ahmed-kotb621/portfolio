@@ -16,7 +16,11 @@ function PersonalImage() {
       transition={{ duration: 0.5, ease: "easeOut" }}
       className="w-[100%]"
     >
-      <img src={image} className="rounded-full min-w-[260px] " />
+      <img
+        src={image}
+        alt="personal image Ahmed Kotb with white chemise."
+        className="rounded-full min-w-[260px] "
+      />
     </motion.div>
   );
 }

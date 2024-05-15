@@ -1,6 +1,6 @@
 import { motion } from "framer-motion";
 import { useAnimation } from "../../Hooks/useAnimation";
-import TextGredient from "../../ui/TextGredient";
+import TextGredient2 from "../../ui/TextGredient2";
 function Experience() {
   const { ref, isVisible } = useAnimation();
   return (
@@ -11,7 +11,7 @@ function Experience() {
       transition={{ duration: 0.5, ease: "easeOut" }}
       className="flex-1 mt-5 md:mt-0"
     >
-      <TextGredient text="Experience" size="30px" />
+      <TextGredient2 text="Experience" />
 
       <div className="text-start leading-8">
         <div className="border-b-2 border-[#ffddb7] my-6 pb-3">

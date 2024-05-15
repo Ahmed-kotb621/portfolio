@@ -18,14 +18,14 @@ function Project({ image, description, technologies, href }) {
         <div className="flex gap-1 h-[300px] overflow-hidden rounded-2xl">
           <img src={image} className=" h-[100%] w-[100%]" />
         </div>
-        <div className="bg-black rounded-2xl mt-2 text-white p-2 text-lg">
+        <div className="bg-black rounded-2xl mt-2 text-white p-2 text-lg text-wrap overflow-hidden">
           <div>
             <h2>
-              <TextGredient text="Description : " size="22px" />
+              <TextGredient text="Description : " />
               {description}
             </h2>
             <h2 className="my-2">
-              <TextGredient text="Technologies :" size="22px" />
+              <TextGredient text="Technologies :" />
               {technologies}
             </h2>
           </div>

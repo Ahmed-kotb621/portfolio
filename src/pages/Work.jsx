@@ -4,6 +4,7 @@ import card from "../assets/projects/card/card.png";
 import sneakers from "../assets/projects/sneakers/sneakers.PNG";
 import wise from "../assets/projects/worldWise/wordWise.png";
 import pizza from "../assets/projects/fastPizza/pizza.PNG";
+import gemini from "../assets/projects/geminiClone/geminiClone.PNG";
 import Project from "../features/Projects/Project";
 import Heading from "../ui/Heading";
 function Work() {
@@ -24,6 +25,12 @@ function Work() {
         href="https://wild-oasis-hotels.netlify.app/login"
       />
 
+      <Project
+        image={gemini}
+        description="Google Gemini AI Clone, responsive with user prompts using Generative Ai Api. "
+        technologies="React.js, Generative Ai Api,Context Api, Sass,Local Storage, Custom Hooks,etc."
+        href="https://geminiclone621.netlify.app/"
+      />
       <Project
         image={card}
         description="Personal information and communication card."

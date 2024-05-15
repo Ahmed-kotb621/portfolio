@@ -1,4 +1,4 @@
-import { FaCss3, FaHtml5, FaJs, FaReact, FaNpm } from "react-icons/fa6";
+import { FaCss3, FaHtml5, FaJs, FaReact, FaNpm, FaSass } from "react-icons/fa6";
 import { BiLogoTailwindCss } from "react-icons/bi";
 import styles from "./skill.module.css";
 import {
@@ -11,57 +11,63 @@ import {
   SiVite,
   SiReactquery,
   SiWebpack,
+  SiTypescript,
 } from "react-icons/si";
 function Skill() {
   return (
-    <div className={`${styles.skills}`}>
-      <div className={`${styles.icon}`}>
+    <ul className={`${styles.skills}`}>
+      <li className={`${styles.icon}`} title="Html 5">
         <FaHtml5 />
-      </div>
-      <div className={`${styles.icon}`}>
+      </li>
+      <li className={`${styles.icon}`} title="Css 3">
         <FaCss3 />
-      </div>
-
-      <div className={`${styles.icon}`}>
+      </li>
+      <li className={`${styles.icon}`} title="Tailwind css">
         <BiLogoTailwindCss />
-      </div>
-      <div className={`${styles.icon}`}>
+      </li>
+      <li className={`${styles.icon}`} title="BootStrap">
         <SiBootstrap />
-      </div>
-      <div className={`${styles.icon}`}>
+      </li>
+      <li className={`${styles.icon}`} title="Sass">
+        <FaSass />
+      </li>
+      <li className={`${styles.icon}`} title="JavaScript">
         <FaJs />
-      </div>
-      <div className={`${styles.icon}`}>
+      </li>
+      <li className={`${styles.icon}`} title="TypeScript">
+        <SiTypescript />
+      </li>
+      <li className={`${styles.icon}`} title="C++">
         <SiCplusplus />
-      </div>
-      <div className={`${styles.icon}`}>
+      </li>
+      <li className={`${styles.icon}`} title="React.js">
         <FaReact />
-      </div>
-      <div className={`${styles.icon}`}>
+      </li>
+      <li className={`${styles.icon}`} title="Redux">
         <SiRedux />
-      </div>
-      <div className={`${styles.icon}`}>
+      </li>
+      <li className={`${styles.icon}`} title="Jest">
         <SiJest />
-      </div>
-      <div className={`${styles.icon}`}>
+      </li>
+      <li className={`${styles.icon}`} title="Webpack">
         <SiWebpack />
-      </div>
-      <div className={`${styles.icon}`}>
+      </li>
+      <li className={`${styles.icon}`} title="Vite">
         <SiVite />
-      </div>
-      <div className={`${styles.icon}`}>
+      </li>
+      <li className={`${styles.icon}`} title="Styled Components">
         <SiStyledcomponents />
-      </div>
-      <div className={`${styles.icon}`}>
+      </li>
+      <li className={`${styles.icon}`} title="Git">
         <SiGit />
-      </div>
-      <div className={`${styles.icon}`}>
+      </li>
+      <li className={`${styles.icon}`} title="npm">
         <FaNpm />
-      </div>
-      <div className={`${styles.icon}`}>
+      </li>
+      <li className={`${styles.icon}`} title="React Query">
         <SiReactquery />
-      </div>
-    </div>
+      </li>
+    </ul>
   );
 }
 
