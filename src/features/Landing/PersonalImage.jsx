@@ -1,5 +1,6 @@
 import { motion } from "framer-motion";
-import image from "../../assets/image-p-2.png";
+import image from "../../assets/file.png";
+// import image from "../../assets/image-p-2.png";
 import { useAnimation } from "../../Hooks/useAnimation";
 
 function PersonalImage() {
@@ -19,7 +20,7 @@ function PersonalImage() {
       <img
         src={image}
         alt="personal image Ahmed Kotb with white chemise."
-        className="rounded-full min-w-[260px] "
+        className="rounded-full min-w-[230px]"
       />
     </motion.div>
   );
