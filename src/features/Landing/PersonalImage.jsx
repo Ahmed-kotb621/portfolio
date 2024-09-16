@@ -19,8 +19,8 @@ function PersonalImage() {
     >
       <img
         src={image}
-        alt="personal image Ahmed Kotb with white chemise."
-        className="rounded-full min-w-[230px]"
+        alt="personal image Ahmed Kotb."
+        className="rounded-full min-w-[230px] drop-shadow-lg"
       />
     </motion.div>
   );
