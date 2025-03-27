@@ -6,11 +6,18 @@ import wise from "../assets/projects/worldWise/wordWise.png";
 import pizza from "../assets/projects/fastPizza/pizza.PNG";
 import gemini from "../assets/projects/geminiClone/geminiClone.PNG";
 import Project from "../features/Projects/Project";
+import mesallah from "../assets/projects/mesallah/mesallah.PNG";
 import Heading from "../ui/Heading";
 function Work() {
   return (
     <section id="work" className=" min-h-[100vh] p-6">
       <Heading title="Projects" />
+      <Project
+        image={mesallah}
+        description="Mesallah web site,Admin dashboard and Reseller dashbpard, The first app to support Arab mobile maintenance technicians."
+        technologies="React.js , http requests & web sockets (axios), React query (Caching), css modules & sass,Vite build tool,Localization,Dark Mode."
+        href="https://mesallah.com"
+      />
       <Project
         image={muslim}
         description="Muslim Web Site show praying times,Holy Quran (Sound & Text)

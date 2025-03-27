@@ -15,6 +15,9 @@ function Experience() {
 
       <div className="text-start leading-8">
         <div className="border-b-2 border-[#ffddb7] my-6 pb-3">
+          <h2 className="text-lg">Front-End developer @ Mesallah.</h2>
+        </div>
+        <div className="border-b-2 border-[#ffddb7] my-6 pb-3">
           <h2 className="text-lg">
             National Company for Roads (Military Service).
           </h2>
