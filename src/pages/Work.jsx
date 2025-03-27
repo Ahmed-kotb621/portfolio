@@ -35,6 +35,7 @@ function Work() {
         image={card}
         description="Personal information and communication card."
         technologies="Html5, css3"
+        href="https://ahmed-kotb621.github.io/personal_card/"
       />
       <Project
         image={sneakers}

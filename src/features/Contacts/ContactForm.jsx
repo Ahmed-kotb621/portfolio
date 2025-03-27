@@ -91,7 +91,6 @@ function ContactForm() {
             rows="5"
             placeholder="your message..."
             disabled={isSubmitting}
-            className="p-2 border-[1px] placeholder:text-gray-500 font-thin rounded-lg bg-transparent border-[#ffddb7]"
             {...register("message", { required: "This Field is required." })}
             style={{ resize: "none" }}
           />
